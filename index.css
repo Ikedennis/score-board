@@ -1,0 +1,76 @@
+body {
+    margin: 15px;
+    user-select: none;
+}
+
+@font-face {
+  font-family: DS-DIGIT;
+  src: url(/DS-DIGIT.TTF);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 420px;
+    margin: 0px auto;
+    background: #1B244A;
+    border-radius: 10px;
+    padding: 0px 40px
+
+}
+
+h3{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h1{
+    margin-top: 0px;
+    color: #F94F6D;
+    background: black;
+    width: 100px;
+    border-radius: 5px;
+    font-family: DS-DIGIT;
+    font-size: 60px;
+    text-align: center;
+    padding: 15px 5px;
+    margin-bottom: 0px;
+}
+
+.btnadd{
+    display: flex;
+    justify-content: space-between
+}
+
+button{
+    max-height: 50px;
+    max-width: 180px;
+    font-size: 20px;
+    color: #9AABD8;
+    font-family: DS-DIGIT;
+    margin: 80px 0px;
+    background: none;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+p{
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-family: DS-DIGIT;
+    color: #9AABD8;
+    padding: 5px;
+    text-align: center;
+}
+
+.winner {
+  display: flex;
+ 
+align-items: center;
+  flex-direction: column;
+}
